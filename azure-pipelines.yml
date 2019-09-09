@@ -22,11 +22,12 @@ steps:
     versionSpec: 4.3.0
 
 - task: NuGetCommand@2
+  displayName: 'Restore'
   inputs:
     command: 'restore'
-    restoreSolution: '**/*.sln'
-    feedsToUse: 'select'
-    vstsFeed: '701f031b-3c21-4ea1-9613-c514b5d63440'
+    restoreSolution: 'src/2D.Utils.sln'
+    feedsToUse: 'config'
+    vstsFeed: 'Nuget.config'
 
 - task: VSBuild@1
   displayName: 'Build VS Solution'
