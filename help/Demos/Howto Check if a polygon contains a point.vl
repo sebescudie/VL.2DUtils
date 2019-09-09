@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" Id="N6VoUWP1MvoOZMpnVmjvai" LanguageVersion="2019.1.0-0667-gac4859edde" Version="0.128">
+  <NugetDependency Id="ATsgbZRQlOgOYTTVDPUvHi" Location="VL.CoreLib" Version="2019.1.0-667" />
+  <Patch Id="J5uMgOKECKRPwQbpUsGkSs">
+    <Canvas Id="P9QtG4wXC5wLKPaX1nrlRg" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="U8dGd1SZJqGMcJnqpvtPwh">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <FullNameCategoryReference ID="Primitive" />
+      </p:NodeReference>
+      <Patch Id="QOTVoAUrUjZPpLIhvLP7Lk">
+        <Canvas Id="MG0nXdpgXkEMZbx0cKcYtS" CanvasType="Group">
+          <Node Bounds="432,380,115,19" Id="Bp1fZs35iYHODhreTDs2XE">
+            <p:NodeReference LastCategoryFullName="2D.Collision" LastSymbolSource="VL.2DUtils.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="PolygonContainsPoint" />
+            </p:NodeReference>
+            <Pin Id="SJCjva3v3apOfAFCayTW7I" Name="Polygon" Kind="InputPin" />
+            <Pin Id="VL0jjnIiDB0PRtMrnrBaAI" Name="Point" Kind="InputPin" />
+            <Pin Id="Idg3MvOuPUeP7hqTkLhVpi" Name="Result" Kind="OutputPin" />
+          </Node>
+        </Canvas>
+        <Patch Id="IQQ15ZPUPZOMEYqsAOPzuF" Name="Create" />
+        <Patch Id="KGZCPxqUTWFNVwh6FgI2q2" Name="Update" />
+        <!--
+
+    ************************  ************************
+
+-->
+        <ProcessDefinition Id="L2ZvQmUX3I7L39VQCzHUVI">
+          <Fragment Id="E9U0OUgSRW7NdrdNg3FyXT" Patch="IQQ15ZPUPZOMEYqsAOPzuF" Enabled="true" />
+          <Fragment Id="P3x5GpLKVsGPfvh5WN4i3j" Patch="KGZCPxqUTWFNVwh6FgI2q2" Enabled="true" />
+        </ProcessDefinition>
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="TTCiRznXa69Pr4ogHFqCUN" Location="VL.Skia" Version="2019.1.0-0667-gac4859edde" />
+  <DocumentDependency Id="Vj1RmzLbPSzMoPsjGJwHRN" Location="../../VL.2DUtils.vl" />
+</Document>
