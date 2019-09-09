@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.2DUtils</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>VL.2DUtils</title>
     <authors>sebescudie</authors>
     <owners>sebescudie</owners>
