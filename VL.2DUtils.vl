@@ -9,7 +9,7 @@
     ************************ PolygonContainsPoint ************************
 
 -->
-        <Node Name="PolygonContainsPoint" Bounds="439,286,191,105" Id="RnH49GDSfCqPLBBR8htoHK">
+        <Node Name="PolygonContainsPoint" Bounds="439,286,191,105" Id="RnH49GDSfCqPLBBR8htoHK" Summary="Determines whether a point lies inside a polygon" Remarks="Adapted from dominoc925.blogspot.com" Tags="polygon,collision">
           <p:NodeReference>
             <Choice Kind="OperationDefinition" Name="Operation" />
             <FullNameCategoryReference ID="Primitive" />
@@ -38,7 +38,7 @@
             <Link Id="GjXblF75pO2MTklgp0eHIj" Ids="EmrqPtk85QHLLFgFspP10a,Byt4Mc55lSOLut7r5hpFAa" />
             <ControlPoint Id="JagfWNBnan1MdjZIRysaB0" Bounds="563,304" />
             <Link Id="NUcLPOMqeL4OefVMLhmM2f" Ids="JagfWNBnan1MdjZIRysaB0,HfDR5gt9jQxP5cSxOJFq4d" />
-            <Pin Id="L9JiKCkUOJDPX6MTHfHTqX" Name="Polygon" Kind="InputPin" Bounds="19,8">
+            <Pin Id="L9JiKCkUOJDPX6MTHfHTqX" Name="Polygon" Kind="InputPin" Bounds="19,8" Summary="A spread of Vector2 describing the polygon">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="Spread" />
                 <p:TypeArguments>
@@ -48,7 +48,7 @@
                 </p:TypeArguments>
               </p:TypeAnnotation>
             </Pin>
-            <Pin Id="K0q9NAXvXNTLwNF8OToUVe" Name="Point" Kind="InputPin" Bounds="69,8" />
+            <Pin Id="K0q9NAXvXNTLwNF8OToUVe" Name="Point" Kind="InputPin" Bounds="69,8" Summary="The point we want to test" />
             <Pin Id="C9JUjnTvbiKPFKGdqVA3Ow" Name="Result" Kind="OutputPin" Bounds="19,22" />
             <Link Id="D1xj2jcZ1kqOCHYzwCimwc" Ids="L9JiKCkUOJDPX6MTHfHTqX,JagfWNBnan1MdjZIRysaB0" IsHidden="true" />
           </Patch>
