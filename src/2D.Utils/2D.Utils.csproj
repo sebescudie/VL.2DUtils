@@ -5,6 +5,10 @@
     <RootNamespace>_2D.Utils</RootNamespace>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>D:\Documents\vvvv\patches\superbien\projets\01_turfu\VL.2DUtils\lib\</OutputPath>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Xenko.Core.Mathematics" Version="3.1.0.1-beta02-0674" />
   </ItemGroup>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>VL.2DUtils</id>
+    <version>1.0.0</version>
+    <title>VL.2DUtils</title>
+    <authors>sebescudie</authors>
+    <owners>sebescudie</owners>
+    <projectUrl>https://github.com/superbien/VL.2DUtils</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>A collection of tools for 2D purposes in VL </summary>
+    <description>A collection of tools for 2D purposes in VL </description>
+    <tags>2d collision vl</tags>
+  </metadata>
+  <files>
+    <file src="..\*.vl" target="" exclude="" />
+    <file src="..\**\*.vl" target="" exclude="" />
+    <file src="..\lib\netstandard2.0\2D.Utils.dll" target="lib\netstandard2.0" exclude="" />
+  </files>
+</package>

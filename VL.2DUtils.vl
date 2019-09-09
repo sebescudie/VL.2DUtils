@@ -69,11 +69,6 @@
         <Canvas Id="HIPHZ4VP8LUOp2hw6F0UPO" CanvasType="Group" />
         <Patch Id="E5zvYgqXeOJMX5XMks27Ez" Name="Create" />
         <Patch Id="OjguQO37pkRO09FNTLdSjV" Name="Update" />
-        <!--
-
-    ************************  ************************
-
--->
         <ProcessDefinition Id="Je3KKnJW01hL2WDecAOw0H">
           <Fragment Id="KC5wetyPMbHMlkT3z4DFjF" Patch="E5zvYgqXeOJMX5XMks27Ez" Enabled="true" />
           <Fragment Id="UGtH8xMbEkyLZBGwOUDKTo" Patch="OjguQO37pkRO09FNTLdSjV" Enabled="true" />
@@ -82,5 +77,5 @@
     </Node>
   </Patch>
   <NugetDependency Id="ROjrOcBsev6QUXCPSzaYag" Location="VL.Skia" Version="2019.1.0-0667-gac4859edde" />
-  <PlatformDependency Id="TdOwdnJjJiINYaoWlSQ7h8" Location="./src/2D.Utils/bin/Debug/netstandard2.0/2D.Utils.dll" />
+  <PlatformDependency Id="TRUiqi7PGwXLHYOjUna9PF" Location="./lib/netstandard2.0/2D.Utils.dll" />
 </Document>
