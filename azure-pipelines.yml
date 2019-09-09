@@ -27,7 +27,7 @@ steps:
     command: 'restore'
     restoreSolution: 'src/2D.Utils.sln'
     feedsToUse: 'config'
-    vstsFeed: 'Nuget.config'
+    vstsFeed: 'NuGet.config'
 
 - task: VSBuild@1
   displayName: 'Build VS Solution'
@@ -38,7 +38,7 @@ steps:
   displayName: 'NuGet pack'
   inputs:
     command: pack
-    packagesToPack: '**/*.nuspec'
+    packagesToPack: 'azure-pipelines/VL.2DUtils.nuspec'
 
 - task: NuGetCommand@2
   displayName: 'NugGet push'
