@@ -16,6 +16,6 @@
     <file src="..\*.vl" target="" exclude="" />
     <file src="..\**\*.vl" target="" exclude="" />
     <file src="..\src\2D.Utils\bin\Debug\netstandard2.0\2D.Utils.dll" target="..\lib\netstandard2.0\" exclude="" />
-    <file src="..\src\2D.Tracker\bin\Debug\netstandard2.0\2D.Tracker.dll" target ="..\lib\netstandard2.0\" eclude=""/>
+    <file src="..\src\2D.Tracker\bin\Debug\netstandard2.0\2D.Tracker.dll" target ="..\lib\netstandard2.0\" exclude=""/>
   </files>
 </package>
