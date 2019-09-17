@@ -30,7 +30,7 @@ steps:
     vstsFeed: 'NuGet.config'
 
 - task: VSBuild@1
-  displayName: 'Build VS Solution'
+  displayName: 'Build solution'
   inputs:
     solution: 'src/2D.Utils.sln'
 
