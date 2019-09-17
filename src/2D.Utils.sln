@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2D.Utils", "2D.Utils\2D.Utils.csproj", "{0BB78BB6-9BC2-4524-AD6F-EAAFBBF9502E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2D.Utils", "2D.Utils\2D.Utils.csproj", "{0BB78BB6-9BC2-4524-AD6F-EAAFBBF9502E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2D.Tracker", "2D.Tracker\2D.Tracker.csproj", "{89064A4A-C785-43EE-843E-B1E1C48A6BBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0BB78BB6-9BC2-4524-AD6F-EAAFBBF9502E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BB78BB6-9BC2-4524-AD6F-EAAFBBF9502E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BB78BB6-9BC2-4524-AD6F-EAAFBBF9502E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89064A4A-C785-43EE-843E-B1E1C48A6BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89064A4A-C785-43EE-843E-B1E1C48A6BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89064A4A-C785-43EE-843E-B1E1C48A6BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89064A4A-C785-43EE-843E-B1E1C48A6BBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
