@@ -26,4 +26,4 @@ jobs:
       run: nuget pack deployment/VL.2DUtils.nuspec
       
     - name: push
-      run: nuget push deployment/*.nupkg ${{ secrets.NUGET_KEY }} -src https://api.nuget.org/v3/index.json
+      run: nuget push *.nupkg ${{ secrets.NUGET_KEY }} -src https://api.nuget.org/v3/index.json
