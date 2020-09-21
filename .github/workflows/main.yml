@@ -1,0 +1,29 @@
+# on push on master
+on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - README.md
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - name: git checkout
+      uses: actions/checkout@master
+      
+    - name: setup nuget
+      uses: nuget/setup-nuget@v1
+      
+    - name: setup msbuild
+      uses: microsoft/setup-msbuild@v1.0.1
+      
+    - name: build
+      run: msbuild src/2D.Utils.sln /t:Build /v:m /m /restore /p:Configuration=Release
+
+    - name: pack
+      run: nuget pack deployment/VL.2DUtils.nuspec
+      
+    - name: push
+      run: nuget push deployment/*.nupkg ${{ secrets.NUGET_KEY }}
