@@ -20,7 +20,10 @@ jobs:
       uses: microsoft/setup-msbuild@v1.0.1
       
     - name: build
-      run: msbuild src/2D.Utils.sln /t:Build /v:m /m /restore /p:Configuration=Release
+      run: msbuild src/2D.Tracker/2D.Tracker.csproj /t:Build /v:m /m /restore /p:Configuration=Release
+
+    - name: build
+      run: msbuild src/2D.Utils/2D.Utils.csproj /t:Build /v:m /m /restore /p:Configuration=Release
 
     - name: pack
       run: nuget pack deployment/VL.2DUtils.nuspec
