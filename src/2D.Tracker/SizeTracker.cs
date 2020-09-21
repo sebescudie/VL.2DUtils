@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Xenko.Core.Mathematics;
+using Stride.Core.Mathematics;
 using System.Linq;
 
 namespace _2D.Tracker

@@ -1,5 +1,5 @@
 ﻿using System;
-using Xenko.Core.Mathematics;
+using Stride.Core.Mathematics;
 
 namespace _2D.Tracker
 {

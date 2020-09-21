@@ -1,4 +1,4 @@
-﻿using Xenko.Core.Mathematics;
+﻿using Stride.Core.Mathematics;
 using static _2D.Tracker.Utils;
 
 namespace _2D.Tracker
