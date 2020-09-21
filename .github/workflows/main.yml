@@ -23,7 +23,7 @@ jobs:
       run: msbuild src/2D.Utils.sln /t:Build /v:m /m /restore /p:Configuration=Release
 
     - name: pack
-      run: nuget pack deployment/VL.2DUtils.nuspec
+      run: nuget pack */VL.2DUtils.nuspec
       
     - name: push
       run: nuget push deployment/*.nupkg ${{ secrets.NUGET_KEY }} -src https://api.nuget.org/v3/index.json
